@@ -1,0 +1,16 @@
+-r dev.txt
+flake8
+flake8-blind-except
+flake8-bugbear
+flake8-builtins
+flake8-comprehensions
+flake8-docstrings
+flake8-eradicate
+flake8-isort
+flake8-logging-format
+flake8-rst-docstrings
+mypy
+pep8-naming
+pylint
+pytest-cov
+pytest-github-actions-annotate-failures

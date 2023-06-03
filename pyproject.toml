@@ -1,0 +1,33 @@
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.coverage.run]
+omit = [
+    "main.py",
+    "tests/*"
+    ]
+
+[tool.isort]
+profile = "black"
+skip_glob= ["venv/*", ".venv/*"]
+
+[tool.mypy]
+python_version = "3.7"
+ignore_missing_imports = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true

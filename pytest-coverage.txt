@@ -1,0 +1,22 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.9, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\repos\spark-jobs, configfile: ov-config=.coveragerc
+plugins: cov-4.0.0, github-actions-annotate-failures-0.1.7
+collected 1 item
+
+tests\sample\test_main.py .                                              [100%]
+
+------------- generated xml file: C:\repos\spark-jobs\pytest.xml --------------
+
+----------- coverage: platform win32, python 3.7.9-final-0 -----------
+Name    Stmts   Miss  Cover   Missing
+-------------------------------------
+TOTAL       0      0   100%
+
+1 file skipped due to complete coverage.
+
+Required test coverage of 80% reached. Total coverage: 100.00%
+============================= 1 passed in 13.39s ==============================
+SUCCESS: The process with PID 10896 (child process of PID 30124) has been terminated.
+SUCCESS: The process with PID 30124 (child process of PID 35060) has been terminated.
+SUCCESS: The process with PID 35060 (child process of PID 74444) has been terminated.

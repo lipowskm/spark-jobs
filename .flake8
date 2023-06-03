@@ -1,0 +1,6 @@
+[flake8]
+exclude = .git,__pycache__,.pytest_cache,venv,.venv
+ignore = W503, E203, F403, D100, D104, D107, D205, D400, D401, I100, I201, G004
+max-line-length = 88
+max-complexity = 18
+extend-select = C4

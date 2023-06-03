@@ -1,0 +1,5 @@
+-r prod.txt
+boto3==1.26.31
+findspark==2.0.1
+pex==2.1.119
+pytest==7.2.0
